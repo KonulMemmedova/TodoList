@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <section class="container">
+  
+        <h1>To-Do App</h1>
+        
+        <div class="new-task-container box">
+        
+        <label for="new-task">Add New Task</label>
+        <input type="text" id="new-task">
+          <button id="addTask">Add Task</button>
+        
+        </div>
+        
+        <div class="todo-list box">
+        
+          <h2>Incomplete Tasks</h2>
+          <ul>
+            <li><input type="checkbox"><label>Task Name</lable></li>
+            <li><input type="checkbox"><label>Task Name</lable></li>
+            <li><input type="checkbox"><label>Task Name</lable></li>
+          </ul>
+        
+        </div><!--/todo-list-->
+        
+        <div class="complete-list box">
+          
+          <h2>Completed Tasks</h2>
+          <ul>
+            <li>Task Name <button class="delete">Delete</button></li>
+      
+          </ul>
+          
+          
+        </div><!--/complete-list-->
+        
+        
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
